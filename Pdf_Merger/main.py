@@ -10,6 +10,9 @@ files.sort()
 for pdf in files:
     merger.append(pdf)
 
-merger.write("FULL-PYTHON-PDF-MERGED.pdf")
+merger.write("MERGED-PDF.pdf")
 print("PDF's are merged successfully !")
 merger.close()
+
+
+#THIS PROGRAM WILL MERGE THE ALL PDFS STORED IN THE FOLDER IN A ORDER IN A SINGLE PDF
