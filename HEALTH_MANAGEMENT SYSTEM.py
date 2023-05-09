@@ -5,6 +5,7 @@
 # every record of food or exercise added in the file. Write a function to retrieve exercise or food file records for
 # any client.
 
+
 import os
 import datetime
 
