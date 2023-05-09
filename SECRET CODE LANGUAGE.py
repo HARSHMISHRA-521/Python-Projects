@@ -6,6 +6,7 @@
 # else:
 #   simply reverse the string
 
+
 # Decoding:
 # if the word contains less than 3 characters, reverse it
 # else:
