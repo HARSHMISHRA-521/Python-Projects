@@ -8,6 +8,7 @@ from pickle import TRUE
 print("********** ASTROLOGER'S STARS ***************")
 
 
+
 def upstars(n):
     for i in range(0, n):
         # inner loop to handle number of columns
