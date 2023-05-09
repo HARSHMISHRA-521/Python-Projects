@@ -6,6 +6,7 @@
 #   ' in Python using if-else statements. ' \
 # 'Do not create any fancy GUI. Use proper functions to check for win.
 
+
 import random
 
 print("💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰\n")
