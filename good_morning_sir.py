@@ -1,5 +1,6 @@
 import time
 print("********* THIS IS HOW YOU TEACH YOUR SYSTEM ,TO WISH YOU ACCORDING TO THE TIME *************")
+
 st = (time.strftime('%H:%M:%S:%Y'))
 t=int(time.strftime('%H'))
 if t>=0 and t< 4:
