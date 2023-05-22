@@ -13,10 +13,10 @@ def show_notification(title, message):
 def drink_water_reminder(interval):
     while True:
         show_notification("Drink Water Harsh", "Remember to drink water!")
-        time.sleep(interval)
+        time.sleep(interval*60)
 
 # Set the reminder interval (in minutes)
-reminder_interval = 10
+reminder_interval = 60
 
 drink_water_reminder(reminder_interval)
 
