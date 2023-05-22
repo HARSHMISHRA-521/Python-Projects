@@ -3,6 +3,7 @@ print("*************************************************************")
 print("             NUMBER GUESSING GAME        ")
 print("**************************************************************")
 
+
 while True:
     print("-> ENTER YOUR CHOICE : \n 1) TO PLAY THE GAME \n 2) RULES OF THE GAME \n 3)EXIT THE GAME ")
     inp = int (input())
