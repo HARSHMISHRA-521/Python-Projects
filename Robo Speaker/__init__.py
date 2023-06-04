@@ -24,8 +24,11 @@ if __name__ == '__main__':  # is not necessary
     engine.say("Created by Harsh Mishra ")
     engine.runAndWait()
 
-    x = input("Enter what you want me to speak: ")
-
-    engine = pyttsx3.init()
-    engine.say(x)
-    engine.runAndWait()
+    print("Enter Q to quit the Program")
+    while True:
+        x = input("Enter what you want me to speak: ")
+        if x == "Q" or x == 'q':
+            break
+        engine = pyttsx3.init()
+        engine.say(x)
+        engine.runAndWait()
